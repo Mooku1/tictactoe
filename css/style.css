@@ -10,7 +10,7 @@ table{
 
 td {
   border: 5px solid black;
-  width: 50px;
+  width: 75px;
   height: 125px;
   margin: 0px auto;
   text-align: center;
@@ -19,3 +19,16 @@ td {
 tr{
   background-color: white;
 }
+
+.btn {
+  width: 140px;
+  height: 140px;
+  vertical-align: center;
+  text-align: center
+}
+
+.container {
+  text-align: center;
+  margin: 0 auto;
+}
+
