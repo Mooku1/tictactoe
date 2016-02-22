@@ -13,11 +13,13 @@ $(function(){
         checkForWinner();
         checkForDraw();
         player = "Player 2";
+        $('#message').text(player + "'s turn! ")
       } else {
         $(this).text(O);
         checkForWinner();
         checkForDraw();
         player = "Player 1";
+        $('#message').text(player +"'s turn! ")
       }
       turnCount++;
       console.log(turnCount);
