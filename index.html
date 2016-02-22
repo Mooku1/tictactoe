@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name ="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
   <script src="js/script.js" type="text/javascript"></script>
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-7s5uDGW3AHqw6xtJmNNtr+OBRJUlgkNJEo78P4b0yRw= sha512-nNo+yCHEyn0smMxSswnf/OnX6/KwJuZTlNZBjauKhTK0c+zT+q5JOCx0UFhXQ6rJR9jg6Es8gPuD2uZcYDLqSw==" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -12,11 +13,12 @@
 </head>
 
 <body>
-  <h1>Basic Tic Tac Toe</h1>
+  <h1>Tic Tac Toe</h1>
   <div id="Display"class="containerDisplay">
-    <p>We will display a message to players here.</p>
+    <h2 id="message">Welcome!</h2>
+    <h4></h4>
     <span id="newGame" class="btn btn-custom btn-lg btn-success">New Game</span>
-    <h3>score</h3>
+    <h3 id="scoreBoard"></h3>
   </div>
 
   <div id ="board" class="container">

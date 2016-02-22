@@ -1,12 +1,15 @@
 
 h1 {
   text-align: center;
-  font-family: arial;
+  font-family: 'Pacifico', cursive;
   background-image: url("../images/island.png");
   color: white;
   background-repeat: repeat;
 }
 
+body{
+  background-image: url('../images/cheap_diagonal_fabric.png');
+}
 
 .containerDisplay {
   text-align: center;
@@ -18,11 +21,10 @@ h1 {
   height: 140px;
   vertical-align: center;
   text-align: center;
+
 }
 
 .container {
   text-align: center;
   margin: 0 auto;
 }
-
-/*add media query*/
