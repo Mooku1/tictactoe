@@ -11,6 +11,13 @@ body{
   background-image: url('../images/cheap_diagonal_fabric.png');
 }
 
+
+li {
+  text-align: center;
+  list-style-type: none;
+  font-size: 20px;
+}
+
 .containerDisplay {
   text-align: center;
   font-family: arial;
