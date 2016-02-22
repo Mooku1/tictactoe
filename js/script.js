@@ -6,7 +6,6 @@ $(function(){
   var O = 'O';
   var player = 1;
 
-
     $('#board').find('.btn').one('click', function(){
       if(turnCount % 2 === 0){
         $(this).text(X);
